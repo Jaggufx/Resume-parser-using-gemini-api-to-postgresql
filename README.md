@@ -1,18 +1,20 @@
 # Resume-parser-using-gemini-api-to-postgresql
+
+**Description**
 This project utilizes Google Generative AI to extract structured information from resumes in PDF format.
 It processes the content of a resume to identify and retrieve the candidate's name, college, email, phone number, and skills.
 
-Requirement:-
+**Requirement:-**
 
 1. Python
 2. modules:
-   import google.generativeai as genai
-   import os
-   import pandas as pd
-   from PyPDF2 import PdfReader
-   import json
-  import psycopg2
-  from sqlalchemy import create_engine
-  from tabulate import tabulate
+      import google.generativeai as genai
+      import os
+      import pandas as pd
+      from PyPDF2 import PdfReader
+      import json
+      import psycopg2
+      from sqlalchemy import create_engine
+      from tabulate import tabulate
 
 You can install the required libraries using pip:
