@@ -8,7 +8,7 @@ import psycopg2
 from sqlalchemy import create_engine
 from tabulate import tabulate
 
-genai.configure(api_key="AIzaSyBTtPfm20WiKRPqxbmCTeHkw5pGSTqjfjo")
+genai.configure(api_key)
 model = genai.GenerativeModel(model_name="gemini-1.5-flash",generation_config={"response_mime_type": "application/json"})
 reader = PdfReader('resume.pdf')
 no_of_pages = len(reader.pages)
